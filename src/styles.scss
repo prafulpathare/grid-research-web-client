@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 'border-box'
+}
+
+button {
+    border: 1px solid rgb(8, 8, 123);
+    background-color: rgb(8, 8, 123);
+    color: white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 1px 2px 5px #d1cdcd;
+
+    &:hover {
+        box-shadow: none;
+    }
+}
+
+input {
+
+    border: 1px solid #f2efefaa;
+    background-color: #f2efefaa;
+    line-height: 30px;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 5px;
+
+    &:focus {
+        background-color: #fff;
+        border-color: #d1cdcd;
+    }
+}
